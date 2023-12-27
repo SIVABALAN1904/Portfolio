@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1>Sivabalan.M</h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Education Details</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times"onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars"onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1>Hi, I'm <span>SIVABALAN M</span><br>From India</br></h1>
+          <p>Java Fullstack Developer</p>
+          <br />
+
+        </div>
+ 
+        
+      </div>
+    </div>
+
+    <!-- About section -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./images/IMG_20231218_192044.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>I completed my Bachelor of Technology in Petroleum Engineering from EASA College of Engineering and Technology in Coimbatore. Subsequently, I gained experience working at Narmada Offshore Construction Pvt. Ltd. and ParryWare Thermoplastics Pvt. Ltd. Presently, I am undertaking an internship at JSPIDERS-Marathahalli in Bangalore. My focus and passion in programming, and I have dedicated myself to mastering languages such as Java, HTML, CSS, JavaScript, and SQL
+                <div class="tab-titles">
+              <p class="tab-links active-link"  onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Internship')">Internship</p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li><span>JAVA</span><br>Backend</li> 
+                <li><span>Web Development</span><br>Web app Development</li>
+                <li><span>SQL</span><br>Data Base</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Internship">
+              <ul>
+                <li><span>2023 - Current</span> <br>JAVA Fullstack Development
+                From Jspider</li>
+                <li><span>2019</span><br>MCRC Process from Chennai Petroleum corporation Ltd at Chennai</li> 
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li><span>2015-2019</span><br>Bachelor of Technology</li>
+                <li><span>2014-2015</span><br>Higher Secondary</li>
+                <li><span>2012-2013</span><br>SSLC</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+<!---services-- -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Education</h1> 
+        <div class="services-list">
+          <div>
+              <i  class="fas fa-graduation-cap"></i>
+            <h2>SSLC</h2>
+            <p>In the academic year 2012-2013, I successfully completed my 10th grade at Meadows Higher Secondary School, located in Kalayarkuruchi, Sivakasi, under the State Board of School Education, Tamil Nadu, attaining an exceptional score of 88%.</p>
+              <a href="./images/10 th Mark sheet.pdf" target="_blank" download class="btn btn1" >Download Result</a>
+          </div>
+          <div>
+            <i class="fas fa-graduation-cap"></i>
+            <h2>HIGHER SECONDARY</h2>
+            <p>From 2014 to 2015, I completed my 12th grade at Hindu Thevamar Higher Secondary School in Sivakasi, under the State Board of School Education, Tamil Nadu, achieving a score of 78%.</p>
+              <a href="./images/12th marksheet.pdf" target="_blank" download class="btn btn1" >Download Result</a>
+          </div>
+          <div>
+            <i class="fas fa-graduation-cap"></i>
+            <h2>Bachelor of Technology</h2>
+            <p>I have completed my Bachelor's degree in Petroleum Engineering from EASA College of Engineering and Technology, Coimbatore. During my academic journey from 2015 to 2019, I maintained a commendable CGPA of 7.17.</p>
+              <a href="./images/shibu overall Mark sheet.pdf" target="_blank" download class="btn btn1" >Download Result</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----portfolio------>
+
+    <div id="portfolio">
+      <div class="container">
+          <h1 class="sub-title">My Projects</h1>
+          <div class="work-list"> 
+            <div class="work">
+              <img src="./images/work-1.png">
+              <div class="layer">
+                <h3>Ecommerce</h3>
+                <p></p>
+                <a href="https://e-commerce-sivabalan1904.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="./images/work-2.png">
+              <div class="layer">
+                <h3>2025 Newyear CountDown</h3>
+                <p></p>
+                <a href="https://count-down-2025-newyear.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="./images/work-3.png">
+              <div class="layer">
+                <h3>To-Do-List</h3>
+                <p></p>
+                <a href="https://to-do-list-sivabalanm1904.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="./images/work-1.png">
+              <div class="layer">
+                <h3>Stop-Watch</h3>
+                <p></p>
+                <a href="https://stop-watch-sivabalanm1904.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="./images/work-2.png">
+              <div class="layer">
+                <h3>Age-Calculator</h3>
+                <p></p>
+                <a href="https://age-calculator-sivabalanm1904.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+           </div>
+           <div class="work">
+            <img src="./images/work-3.png">
+            <div class="layer">
+              <h3>CLOCk</h3>
+              <p></p>
+              <a href="https://clock-sivabalanm1904.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+       </div>
+    </div>
+    <!-- --contact-->
+      <div id="contact"> 
+        <div class="container"> 
+          <div class="row">
+            <div class="contact-left"> 
+              <h1 class="sub-title">Contact Me</h1> 
+              <p><i class="fa fa-envelope"></i>sivabalan0419@gmail.com</p>
+              <p><i class="fa-solid fa-address-book"></i>8526277029</p> 
+              <div class="social-icons">
+                <a href="https://www.instagram.com/shibu_1904/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/SIVABALAN1904" target="_blank"><i class="fab fa-github"></i></a>
+              </div>
+              <a href="./images/SIVABALAN-M1904-Resume-20231227.pdf" target="_blank" download class="btn btn2" >Download Cv</a>
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required> 
+                <input type="email" name="Email" placeholder="Your Email" required>
+                 <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+              <span id="msg"></span>
+           </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright &copy SIVABALAN M</p>
+        </div>
+      </div >
+      <script src="./script.js"></script>
+  </body>
+</html>
